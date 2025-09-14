@@ -8,9 +8,9 @@ This repo is a growing library of **studies**: short, approachable notes that po
 
 ## 📚 Table of Contents
 
-* [studies](studies/)
+* [Studies](studies/)
 * [Discussions](https://github.com/arminbro/berean-code/discussions)
-* [starter template](studies/_TEMPLATE.md)
+* [Starter Template](studies/_TEMPLATE.md)
 
 ## ✍️ How to Contribute
 
