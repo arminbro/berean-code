@@ -9,6 +9,8 @@ This repo is a growing library of **studies**: short, approachable notes that po
 ## 📚 Table of Contents
 
 * [studies](studies/)
+* [Discussions](https://github.com/arminbro/berean-code/discussions)
+* [starter template](studies/_TEMPLATE.md)
 
 ## ✍️ How to Contribute
 
@@ -20,7 +22,7 @@ This repo is a growing library of **studies**: short, approachable notes that po
 
 2. **Join the discussion**
 
-   * Use [Discussions](https://github.com/arminbro/berean-code/discussions) to share reflections, ask questions, or add perspective.
+   * Use [discussions](https://github.com/arminbro/berean-code/discussions) to share reflections, ask questions, or add perspective.
 
 3. **Keep it constructive**
 
