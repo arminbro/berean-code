@@ -1,106 +1,97 @@
-# AGENTS.md
+# Berean Code — Project Guide
 
-This document explains the purpose, philosophy, and workflow of the **Berean Code** project. It is meant for both contributors and curious readers who want to understand how this repository is structured and why it exists.
+Welcome to **Berean Code**! This repo is an experiment mixing **faith** and **developer culture**. Think of it like a group Bible study, but with the best parts of dev practices: version control, clear notes, and collaboration.
+
+The name comes from Acts 17:11 - the Bereans checked the Scriptures carefully.
 
 ---
 
 ## Purpose
 
-Berean Code is a collaborative experiment at the intersection of **faith** and **developer culture**. Inspired by Acts 17:11.
-This repo applies developer practices (version control, peer review, docs culture) to the study of Scripture.
+Berean Code exists to:
 
-Our goals are:
-- To create a library of **clear, sourced explainers** of key Bible passages.
-- To distinguish between **facts** (languages, history, sources) and **interpretations** (theology, doctrine, debates).
-- To invite **open, charitable discussions** while keeping the explainers focused and structured.
-- To build tools and automations (eventually) that make study transparent and accessible.
+* Build a growing library of **casual, clear studies** on Bible passages.
+* Draw a clear line between **facts** (language, history, sources) and **Christian perspectives** (theology, tradition, reflections).
+* Create a space for **open, respectful collaboration**.
+* Experiment with tools that make Scripture study more fun, and accessible.
 
 ---
 
-## Repository Structure
+## Repo Layout
 
 ```text
 berean-code/
-├─ explainers/          # Markdown explainers of Bible passages
-│  ├─ _TEMPLATE.md      # Standard starter template for all explainers
+├─ studies/            # Bible passage studies in Markdown
+│  ├─ _TEMPLATE.md     # Starter template
 │  └─ YYYY-MM-DD-title.md
-├─ sources/             # Optional supporting materials, references, notes
-├─ README.md            # Project intro + TOC
-├─ AGENTS.md            # This document
-└─ LICENSE              # MIT License
+├─ sources/            # Extra notes, references, materials
+├─ README.md           # Project intro + TOC
+├─ AGENTS.md           # This file
+└─ LICENSE             # MIT License
 ```
 
 ---
 
-## 📝 Explainer Philosophy
+## 📝 Study Style
 
-Each explainer is:
+Each study should be:
 
-1. **Scripture-anchored** — Starts with the passage in full, with translation edition noted.
-2. **Reader-friendly** — Written in a docs-style format (tables, timelines, bullet points).
-3. **Structured** — Uses consistent sections from the [starter template](explainers/_TEMPLATE.md):
-   - ⚡ At a Glance — Why this passage matters.
-   - 🔑 Key Concepts — Definitions, parallels, context.
-   - 📌 Claims — Verifiable facts (languages, dates, parallels).
-   - 🤔 Interpretation — Theological readings and debates.
-   - 🧭 Historical Anchors — Timeline to ground the passage.
-   - ❓ Open Questions — Areas of active discussion.
-   - 🔗 Connections — Cross-references to other texts.
-   - 📚 Further Reading — Scholarly works and notes.
-4. **Transparent** — Each file has frontmatter with sources (primary vs. secondary) and limitations (debated issues).
+1. **Scripture-first** - Start with the passage in full, name the translation.
+2. **Friendly & clear** - Think Bible study notes.
+3. **Consistent** - Follow the [starter template](studies/_TEMPLATE.md):
 
----
-
-## 🔍 Fact vs. Interpretation
-
-A cornerstone of Berean Code is separating **what can be verified** from **what is interpreted**:
-
-- **Claims (Verifiable)**: Language facts, manuscript evidence, historical events, parallels in Jewish/Greco-Roman texts.
-- **Interpretation (Theological)**: Doctrinal readings, confessional stances, theological synthesis.
-
-This makes space for contributors of different traditions to work together without erasing differences.
+   * ⚡ Big Idea - Why this passage matters.
+   * 🔎 What Stands Out - Key words, themes, details.
+   * 📌 Facts - The checkable stuff (language notes, parallels, dates).
+   * 🤔 Christian Perspectives - How different Christians understand the passage, plus your own reflections.
+   * 🌱 Why It Matters - How this points us to Jesus or shapes life.
+   * 🔗 Connections - Cross-refs to other passages.
+   * 📚 Want to Go Deeper? - Links to helpful resources.
 
 ---
 
-## 💬 Discussions
+## 🔍 Facts vs. Perspectives
 
-- Every explainer ends with an **Open Questions** section.
-- These questions are meant to spark [Discussions](https://github.com/arminbro/berean-code/discussions).
+One of our core values is separating **what’s checkable** from **what’s perspective**:
+
+* **Facts (Checkable):** word meanings, manuscript notes, historical events, cross-references.
+* **Perspectives (Interpretive):** theology, Christian tradition, and personal reflections.
+
+That way, people from different backgrounds can learn together without confusion.
 
 ---
 
-## 🧑‍💻 Contribution Workflow
+## 🧑‍💻 How to Contribute
 
-1. **Fork the repo** and create a branch for your changes.
-2. Use the [starter template](explainers/_TEMPLATE.md) to create a new explainer in `/explainers`.
-3. Fill in all sections, being clear about claims vs. interpretation.
-4. Submit a pull request. Reviewers may suggest edits for clarity, consistency, or citations.
-5. Join Discussions to expand on open questions or related themes.
+1. **Fork the repo** and make a branch.
+2. Use the [starter template](studies/_TEMPLATE.md) for new studies in `/studies`.
+3. Fill out the sections, keeping facts and perspectives distinct.
+4. Open a pull request. Reviewers may suggest tweaks for clarity or consistency.
+5. Join **Discussions** for bigger questions or fun rabbit trails.
 
 ---
 
 ## ⚖️ Ground Rules
 
-- **Cite everything.** Scripture references, translations, and external sources must be noted.
-- **Disagree gently.** Assume good intent, engage arguments not people.
-- **Transparency first.** Mark clearly what is debated vs. what is established.
-- **Edification > winning.** Contributions should help others learn and grow, not score points.
+* **Always cite.** Whether in Facts, Perspectives, or Want to Go Deeper, note your sources.
+* **Be kind.** Challenge ideas, not people.
+* **Stay transparent.** Make it clear what’s established vs. what’s perspective.
+* **Build up.** The point is to grow in faith, not score points.
 
 ---
 
-## 🌱 Future Directions
+## 🌱 What’s Next
 
-- Automated verse linking (cross-references generated by script).
-- Tagging system for explainers (themes like Logos, Trinity, Wisdom, etc.).
-- A static site build (e.g. with Docusaurus or MkDocs) for easier browsing.
-- Possible integrations with Bible APIs for inline original language tools.
+* Tagging system for themes (#Light, #Wisdom, #Creation, etc.).
+* Auto-generated cross-references.
+* Static site for easy browsing (Docusaurus, MkDocs, or similar).
+* Possible API integrations for original language tools.
 
 ---
 
 ## 📖 Inspiration
 
-Berean Code stands on two heritages:
-- The **Berean spirit** of examining Scripture daily with eagerness.
-- The **developer ethos** of collaboration, transparency, and continuous improvement.
+Berean Code is shaped by two streams:
 
-Together, these create a space where believers can explore Scripture deeply, logically, and with openness to correction.
+* The **Berean spirit** - digging into Scripture with eagerness and care (Acts 17:11), always pointing back to Jesus and real faith.
+* The **developer ethos** - building together in the open, improving things step by step, and making room for everyone to contribute.
