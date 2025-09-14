@@ -8,17 +8,15 @@ This repo is a growing library of **studies**: short, approachable notes that po
 
 ## 📚 Table of Contents
 
-### 2025
-
-* [John 1:1–5 - The Word in Context](studies/2025-09-13-john-1-1-5.md)
+* [studies](studies/)
 
 ## ✍️ How to Contribute
 
 1. **Write a study**
 
    * Use the [starter template](studies/_TEMPLATE.md) to keep consistency.
-   * Add a new file in `/studies/`.
-   * Follow the sections: Big Idea, What Stands Out, Facts, Christian Perspectives, Why It Matters, Connections.
+   * Add a new file in `/studies/YYYY-MM-DD-title.md`.
+   * Follow the sections: Big Idea, What Stands Out, Facts, Christian Perspectives, Why It Matters, Connections etc.
 
 2. **Join the discussion**
 
@@ -36,4 +34,4 @@ Developers already use version control, collaboration, and peer review daily. Th
 
 ## 🔖 License
 
-MIT License — see [LICENSE](LICENSE).
+MIT License - see [LICENSE](LICENSE).
