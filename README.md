@@ -1,34 +1,86 @@
 # Berean Code
 
-A collaborative **Bible study project** by Christian developers, inspired by Acts 17:11.
+Welcome to **Berean Code**! 
+
+This repo is an experiment mixing **faith** and **developer culture**. Think of it like a group Bible study, but with the best parts of dev practices: version control, clear notes, and collaboration.
+
+The name comes from Acts 17:11 - the Bereans checked the Scriptures carefully.
 
 > *“Now the Berean Jews were of more noble character than those in Thessalonica, for they received the message with great eagerness and examined the Scriptures every day to see if what Paul said was true.”* - Acts 17:11
 
-This repo is a growing library of **studies**: short, approachable notes that point out the big ideas in Scripture, highlight interesting details, and share how Christians have understood these passages through the ages. The goal: help each other dig into the Bible and grow closer to Jesus.
+## Purpose
 
-## 📚 Table of Contents
+Berean Code exists to:
+
+* Build a growing library of **casual, clear studies** on Bible passages.
+* Draw a clear line between **facts** (language, history, sources) and **Christian perspectives** (theology, tradition, reflections).
+* Create a space for **open, respectful collaboration**.
+* Experiment with tools that make Scripture study more fun, and accessible.
+
+## Repo Layout
+
+```text
+berean-code/
+├─ studies/            # Bible passage studies in Markdown
+│  ├─ _TEMPLATE.md     # Starter template
+│  └─ YYYY-MM-DD-title.md
+├─ sources/            # Extra notes, references, materials
+├─ README.md           # Project intro + TOC
+└─ LICENSE             # MIT License
+```
+
+## 🔗 Helpful Links
 
 * [Studies](studies/)
 * [Discussions](https://github.com/arminbro/berean-code/discussions)
 * [Starter Template](studies/_TEMPLATE.md)
 
-## ✍️ How to Contribute
+## 📝 Study Style
 
-1. **Write a study**
+Each study should be:
 
-   * Use the [starter template](studies/_TEMPLATE.md) to keep consistency.
-   * Add a new file in `/studies/YYYY-MM-DD-title.md`.
-   * Follow the sections: Big Idea, What Stands Out, Facts, Christian Perspectives, Why It Matters, Connections etc.
+1. **Scripture-first** - Start with the passage in full, name the translation.
+2. **Friendly & clear** - Think Bible study notes.
+3. **Consistent** - Follow the [starter template](studies/_TEMPLATE.md):
 
-2. **Join the discussion**
+   * ⚡ Big Idea - Why this passage matters.
+   * 🔎 What Stands Out - Key words, themes, details.
+   * 📌 Facts - The checkable stuff (language notes, parallels, dates).
+   * 🤔 Christian Perspectives - How different Christians understand the passage, plus your own reflections.
+   * 🌱 Why It Matters - How this points us to Jesus or shapes life.
+   * 🔗 Connections - Cross-refs to other passages.
+   * 📚 Want to Go Deeper? - Links to helpful resources.
 
-   * Use [discussions](https://github.com/arminbro/berean-code/discussions) to share reflections, ask questions, or add perspective.
+## 🔍 Facts vs. Perspectives
 
-3. **Keep it constructive**
+One of our core values is separating **what’s checkable** from **what’s perspective**:
 
-   * Cite Scripture and resources when you can.
-   * Distinguish facts (language, history, cross-references) from perspectives (theology, reflections).
-   * Encourage and build up others.
+* **Facts (Checkable):** word meanings, manuscript notes, historical events, cross-references.
+* **Perspectives (Interpretive):** theology, Christian tradition, and personal reflections.
+
+That way, people from different backgrounds can learn together without confusion.
+
+## 🧑‍💻 How to Contribute
+
+1. **Fork the repo** and make a branch.
+2. Use the [starter template](studies/_TEMPLATE.md) for new studies in `/studies`.
+3. Fill out the sections, keeping facts and perspectives distinct.
+4. Open a pull request. Reviewers may suggest tweaks for clarity or consistency.
+5. Join **Discussions** for bigger questions or fun rabbit trails.
+
+## ⚖️ Ground Rules
+
+* **Always cite.** Whether in Facts, Perspectives, or Want to Go Deeper, note your sources.
+* **Be kind.** Challenge ideas, not people.
+* **Stay transparent.** Make it clear what’s established vs. what’s perspective.
+* **Build up.** The point is to grow in faith, not score points.
+
+## 🌱 What’s Next
+
+* Tagging system for themes (#Light, #Wisdom, #Creation, etc.).
+* Auto-generated cross-references.
+* Static site for easy browsing (Docusaurus, MkDocs, or similar).
+* Possible API integrations for original language tools.
 
 ## 💡 Why on GitHub?
 
