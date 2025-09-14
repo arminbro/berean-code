@@ -9,7 +9,7 @@ This repo builds a library of **explainers**: short, sourced documents that conn
 ## 📚 Table of Contents
 
 ### 2025
-- [John 1:1–5 — The Word in Context](explainers/2025-09-13-john-1-1-5.md)
+- [John 1:1–5 - The Word in Context](explainers/2025-09-13-john-1-1-5.md)
 
 ## ✍️ How to Contribute
 
